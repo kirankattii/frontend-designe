@@ -1,0 +1,775 @@
+.banner1 {
+  background-image: url('./images/banner1.svg');
+  width: 100%;
+  height: 85vh;
+
+}
+
+.banner2,
+.banner3,
+.banner4,
+.banner5,
+.banner6 {
+  display: none;
+}
+
+.banner2 {
+  background: rgb(254, 227, 128);
+  background: linear-gradient(rgba(254, 227, 128, 1) 0%, rgba(239, 198, 75, 1) 100%);
+  width: 100%;
+  height: 85vh;
+
+}
+
+.banner3 {
+  background: rgb(110, 207, 250);
+  background: linear-gradient(rgba(110, 207, 250, 1) 16%, rgba(193, 233, 250, 1) 100%);
+  width: 100%;
+  /* height: 50%; */
+  height: 85vh;
+
+
+}
+
+.banner4 {
+  background: rgb(237, 208, 200);
+  background: linear-gradient(90deg, rgba(237, 208, 200, 1) 0%, rgba(252, 238, 231, 1) 100%);
+  width: 100%;
+  height: 85vh;
+  /* height: 100%; */
+  position: relative;
+
+}
+
+.banner5 {
+  background: rgb(255, 209, 179);
+  background: radial-gradient(circle, rgba(255, 209, 179, 1) 0%, rgba(255, 179, 191, 1) 100%);
+  width: 100%;
+  height: 85vh;
+
+}
+
+.banner6 {
+  background-image: url('./images/banner6.svg');
+  width: 100%;
+  /* height: 100%; */
+  height: 85vh;
+
+}
+
+
+
+.all-banners {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+.banner11 {
+  display: flex;
+}
+
+.banner2 {}
+
+.left-banner {
+  width: 40%;
+}
+
+.right-banner {
+  width: 60%;
+
+}
+
+.banner1 hr {
+  height: 500px;
+  margin-top: 60px;
+  width: 3px;
+  border: none;
+  color: white;
+  background: #fff;
+}
+
+.banner2-hr {
+  margin-left: 20px;
+  height: 500px;
+  margin-top: 60px;
+  width: 3px;
+  border: none;
+  color: white;
+  background: #fff;
+}
+
+.banner2-hr {
+  margin-left: 20px;
+}
+
+.product-choice {
+  height: 120px;
+  margin-left: 50px;
+  /* padding-top: 30px; */
+  position: absolute;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.product-choice img {
+  /* position: sticky; */
+  width: 55px;
+  height: 55px;
+  /* padding: 10px; */
+  background: #fff;
+  border-radius: 50%;
+  /* margin: 05px; */
+  cursor: pointer;
+  transition: all ease 0.3s;
+}
+
+.product-choice img.active {
+  width: 55px;
+  height: 90px;
+  padding: 0;
+  background: none;
+}
+
+.product-choice img:nth-child(2).active {
+  width: 60px;
+  height: 90px;
+  padding: 0;
+  background: none;
+}
+
+.product-choice img:nth-child(6).active {
+  width: 65px;
+  height: 90px;
+  padding: 0;
+  background: none;
+}
+
+.product-choice img:nth-child(3).active {
+  width: 60px;
+  height: 100px;
+  padding: 0;
+  background: none;
+}
+
+
+*/ .left-banner {}
+
+.product1-name img {
+  /* width: 400px; */
+  width: 75%;
+  margin-top: 200px;
+  margin-left: 60px;
+}
+
+.product2-name img {
+  margin-top: 220px;
+  margin-left: 40px;
+  /* width: 500px; */
+  width: 75%;
+
+
+}
+
+.product3-name img {
+  margin-top: 220px;
+  margin-left: 40px;
+  width: 75%;
+
+  /* width: 520px; */
+}
+
+.product4-name img {
+  margin-top: 180px;
+  margin-left: 170px;
+  /* width: 220px; */
+  width: 30%;
+
+}
+
+.product5-name img {
+  margin-top: 220px;
+  margin-left: 50px;
+  /* width: 470px; */
+  width: 75%;
+
+}
+
+.product6-name img {
+  margin-top: 200px;
+  margin-left: 50px;
+  width: 470px;
+  width: 75%;
+
+}
+
+.banner3 button {
+  padding-top: 50px;
+}
+
+.left-banner button {
+  position: absolute;
+  bottom: 50px;
+  /* left: 7%; */
+  width: 280px;
+  font-family: DM Mono;
+  font-size: 30px;
+  font-weight: 300;
+  /* letter-spacing: 0em; */
+  text-align: center;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 8%;
+  border-radius: 30px;
+  outline: none;
+  color: #B61556;
+  border: 2px solid #B61556;
+  background: transparent;
+}
+
+.left-banner .banner-btn6 {
+  border: 2px solid #1C631D;
+  color: #1C631D;
+}
+
+.left-banner .banner-btn4 {
+  border: 2px solid #392425;
+  color: #392425;
+}
+
+.left-banner .banner-btn3 {
+  border: 2px solid #003146;
+  color: #003146;
+}
+
+.left-banner .banner-btn2 {
+  border: 2px solid #561506;
+  color: #561506;
+}
+
+.right-banner1, .right-banner2, .right-banner3, .right-banner4, .right-banner5, .right-banner6 {
+  width: 60%;
+  /* position: relative; */
+}
+
+.right-banner1 img {
+  /* width: 710px; */
+  width: 45.5%;
+  /* margin-top: 0px;
+  margin-left: 200px; */
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  /* transition: all ease-out 0.3s; */
+}
+
+.right-banner2 img {
+  /* width: 1110px; */
+  width: 40%;
+  /* margin-top: 0px;
+  margin-left: -200px; */
+  /* margin-top: 15px; */
+  /* margin-left: -10px; */
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  padding-top: 15px;
+
+  /* transition: all ease-out 0.3s; */
+
+}
+
+.right-banner2 {
+  /* padding-top: 15px; */
+}
+
+.right-banner3 img {
+  /* width: 1110px; */
+  width: 72%;
+  /* margin-top: -30px;
+  margin-left: -200px; */
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  /* transition: all ease-out 0.3s; */
+
+}
+
+.right-banner4 img {
+  /* margin-top: 2px; */
+  /* width: 820px; */
+  width: 45.5%;
+  /* margin-left: 90px; */
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  /* transition: all ease-out 0.3s; */
+
+}
+
+.right-banner5 img {
+  /* margin-top: 200px; */
+  /* width: 1130px; */
+  width: 37%;
+  /* margin-top: px;
+  margin-left: -220px; */
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  /* transition: all ease-out 0.3s; */
+
+}
+
+.right-banner6 img {
+  /* width: 1115px; */
+  width: 41%;
+  /* margin-top: px;
+  margin-left: -220px; */
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  transition: all ease-out 0.3s;
+
+}
+
+@media (max-width: 1300px) {
+  .banner1, .banner2, .banner3, .banner4, .banner5, .banner6 {
+    height: 85vh;
+  }
+
+  .right-banner2 img {
+    width: 47.5%;
+  }
+
+  .right-banner5 img {
+    width: 45%;
+  }
+
+  /* .banner2{
+    height: 70vh;
+  } */
+  .left-banner button {
+    /* bottom: 15px; */
+  }
+
+  .left-banner img {
+    /* margin-top: 0px; */
+    margin-bottom: 30px;
+    margin-left: 100px;
+  }
+
+  .banner2-hr {
+    margin-left: 250px;
+    height: 450px;
+    margin-top: 22px;
+  }
+
+  .product4-name img {
+    margin-top: 120px;
+    margin-left: 100px;
+    /* width: 220px; */
+    width: 60%;
+
+  }
+}
+
+@media (max-width: 1000px) {
+  .banner1, .banner2, .banner3, .banner4, .banner5, .banner6 {
+    height: 87vh;
+  }
+
+  .left-banner button {
+    bottom: 25px;
+    font-size: 100%;
+    padding: 5px 0px;
+    margin-left: 85px;
+    height: 50px;
+    width: 20%;
+  }
+
+  .left-banner img {
+    /* margin-top: 0px; */
+    width: 350px;
+    margin-top: 150px;
+    margin-left: 82px;
+  }
+
+  .product4-name img {
+    margin-top: 120px;
+    margin-left: 100px;
+    /* width: 220px; */
+    width: 60%;
+
+  }
+
+  .right-banner1 img {
+    width: 60.5%;
+  }
+
+  .right-banner2 img {
+    width: 60.5%;
+  }
+
+  .right-banner3 img {
+    width: 100%;
+  }
+
+  .right-banner4 img {
+    width: 65.5%;
+  }
+
+  .right-banner5 img {
+    width: 58%;
+  }
+
+  .right-banner6 img {
+    width: 60%;
+  }
+
+  .left-banner button {
+    /* bottom: 25px; */
+    position: relative;
+    font-size: 100%;
+    padding: 5px 0px;
+    margin-left: 35px;
+    position: absolute;
+    bottom: 150px;
+    left: 80px;
+    width: 150px;
+    height: 50px;
+  }
+
+
+  .banner2-hr {
+    display: none;
+  }
+}
+
+@media (max-width: 550px) {
+  .product-choice {
+    height: 50px;
+    margin: 25px;
+    /* margin-left: 15px; */
+    padding-top: -25px;
+    display: flex;
+    padding: 10px;
+    /* justify-content: center; */
+    /* align-items: center; */
+    gap: 15px;
+  }
+
+  .product-choice img {
+    width: 45px;
+    height: 45px;
+  }
+
+  .right-banner2 img, .right-banner3 img, .right-banner5 img, .right-banner6 img {
+    width: 100%;
+  }
+
+  .right-banner1 img {
+    width: 60%;
+  }
+
+  .right-banner2 img {
+    width: 75%;
+  }
+
+  .right-banner4 img {
+    width: 75%;
+  }
+
+  .right-banner5 img {
+    width: 70%;
+  }
+
+  .right-banner6 img {
+    width: 70%;
+  }
+
+
+
+
+  .left-banner img {
+    /* margin-top: 0px; */
+    width: 120%;
+    margin-top: 180px;
+    margin-left: 15px;
+  }
+
+  .product4-name img {
+    margin-top: 120px;
+    margin-left: 30px;
+    /* width: 220px; */
+    width: 70%;
+
+  }
+
+  .left-banner button {
+    /* bottom: 25px; */
+    position: relative;
+    font-size: 100%;
+    padding: 5px 0px;
+    margin-left: 35px;
+    position: relative;
+    margin-top: 200px;
+    margin-left: -50px;
+    width: 150px;
+    height: 50px;
+  }
+
+}
+
+@media (max-width: 450px) {
+  .banner1, .banner2, .banner3, .banner4, .banner5, .banner6 {
+    height: 88.5vh;
+  }
+
+  .left-banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    width: 100%;
+  }
+
+  .product-choice {
+    height: 50px;
+    margin: 25px;
+
+    padding-top: -25px;
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    gap: 15px;
+  }
+
+  .product-choice img {
+    width: 40px;
+    height: 40px;
+  }
+
+
+
+  .product-choice img.active {
+    width: 40px;
+    height: 40px;
+    padding: 0;
+    background: none;
+  }
+
+  .left-banner img {
+    /* margin-top: 0px; */
+    width: 120%;
+    margin-top: 120px;
+    margin-left: 12px;
+  }
+
+  .left-banner button {
+    /* bottom: 25px; */
+    position: relative;
+    font-size: 100%;
+    padding: 5px 0px;
+    margin-left: -225px;
+    margin-top: 135px;
+    width: 150px;
+    height: 50px;
+  }
+
+  .right-banner2 img, .right-banner3 img, .right-banner5 img, .right-banner6 img {
+    width: 150%;
+  }
+
+  .right-banner1 img {
+    width: 85%;
+  }
+
+  .right-banner2 img {
+    width: 90%;
+  }
+
+  .right-banner4 img {
+    width: 100%;
+  }
+
+  .right-banner5 img {
+    width: 80%;
+  }
+
+  .right-banner6 img {
+    width: 90%;
+  }
+
+  .product4-name img {
+    margin-top: 120px;
+    margin-left: 30px;
+    /* width: 220px; */
+    width: 60%;
+
+  }
+}
+
+@media (max-width: 400px) {
+  .product-choice {
+    height: 50px;
+    margin: 25px;
+    margin-left: 5px;
+    padding-top: -25px;
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    gap: 15px;
+  }
+
+  .product-choice img {
+    width: 35px;
+    height: 35px;
+    padding: 05px;
+  }
+
+  .product-choice img:hover, .product-choice img.active {
+    width: 35px;
+    height: 35px;
+    padding: 0;
+    background: none;
+  }
+
+  .product-choice img:hover:nth-child(2) {
+    /* width: 65px; */
+    height: 80px;
+
+  }
+}
+
+@media (max-width: 380px) {
+  .product-choice {
+    display: flex;
+    gap: 10px;
+  }
+
+  .left-banner button {
+    /* margin-left: 0px; */
+  }
+}
+
+
+
+
+.left-banner img {
+  transform: translateX(-100%);
+  animation: moveFromLeft 0.5s ease-in-out forwards;
+}
+
+@keyframes moveFromLeft {
+  0% {
+    transform: translateY(200%);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes rotateImage {
+  0% {
+    transform: rotate(0deg);
+    transform-origin: right bottom;
+    /* Set the rotation point */
+    opacity: 0;
+  }
+
+
+  100% {
+    transform: rotate(90deg);
+    transform-origin: right bottom;
+    /* Set the rotation point */
+    opacity: 1;
+  }
+}
+
+
+
+
+
+
+.rotate {}
+
+.all-banners {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  /* Hide the overflow to prevent scrollbar from showing */
+}
+
+/* @keyframes rotateImage {
+  0% {
+    transform: rotate(0deg);
+    transform-origin: right bottom;
+    opacity: 0.2;
+  }
+
+  100% {
+    transform: rotate(90deg);
+    transform-origin: right bottom;
+    opacity: 1;
+  }
+}
+
+.rotate {
+  animation: rotateImage 0.8s ease-out;
+  animation-timing-function: linear;
+} */
+
+
+/* @keyframes rotateImage {
+  0% {
+    transform: rotate(0deg);
+    transform-origin: right bottom;
+    opacity: 0.2;
+  }
+
+  100% {
+    transform: rotate(360deg);
+    transform-origin: right bottom;
+    opacity: 1;
+  }
+}
+
+.rotate {
+  animation: rotateImage 0.8s ease-out;
+  animation-timing-function: linear;
+} */
+
+
+@keyframes rotateImage {
+  0% {
+    transform: rotate(0deg);
+    transform-origin: right bottom;
+    opacity: 0.2;
+  }
+
+  50% {
+    transform: rotate(180deg);
+    transform-origin: right bottom;
+    opacity: 0.5;
+  }
+
+  100% {
+    transform: rotate(360deg);
+    transform-origin: right bottom;
+    opacity: 1;
+  }
+}
+
+.rotate {
+  animation: rotateImage 1s ease-out;
+  animation-timing-function: linear;
+}
