@@ -9,8 +9,12 @@
   <link rel="stylesheet" href="banner.css">
   <link rel="stylesheet" href="index.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
-
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Outfit:wght@100..900&display=swap"
+    rel="stylesheet">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
   <title>HF Super</title>
   <style>
     .swiper {
@@ -53,60 +57,168 @@
 </head>
 
 <body>
+  <div class="nav-contact">
+    <div class="left-nav-contact">
+      <nav>
+        <ul>
+          <li>
+            <i class="fa-regular fa-envelope"> </i>
+            <p>hfsuper24@gmail.com</p>
+
+          </li>
+          <li>
+            <i class="fa-solid fa-phone"></i>
+            <p>+88 130 589 745 6987</p>
+          </li>
+          <li>
+            <i class="fa-regular fa-clock"></i>
+            <p>Mon - Fri 09:00 - 18:00</p>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div class="right-nav-contact">
+      <nav>
+        <ul>
+          <li>
+            <a href="https://twitter.com/kirankatti420" target="_blank">
+              <i class="fa-brands fa-twitter"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://instagram.com" target="_blank">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.behance.net/" target="_blank">
+              <i class="fa-brands fa-behance"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/feed/" target="_blank">
+              <i class="fa-brands fa-linkedin-in"></i></a>
+          </li>
+          <li>
+            <a href="https://portfolio-three-js-kiran-kattis-projects.vercel.app/" target="_blank">
+              <i class="fa-brands fa-dribbble"></i></a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+  <header class="header1">
+    <nav class="nav1 container1">
+      <div class="nav__data">
+        <a href="../index.html" class="nav__logo">
+          <img class="hf-logo" src="./images/superhflogo.svg" alt="">
+        </a>
+
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="ri-menu-line nav__burger"></i>
+          <i class="ri-close-line nav__close"></i>
+        </div>
+      </div>
+
+      <!--=============== NAV MENU ===============-->
+      <div class="nav__menu" id="nav-menu">
+        <ul class="nav__list">
+          <li><a href="../index.html" class="nav__link">Home</a></li>
+          <li class="dropdown__item">
+            <div class="nav__link">
+              Company Profile<i class="ri-arrow-down-s-line dropdown__arrow"></i>
+            </div>
+
+            <ul class="dropdown__menu">
+              <li>
+                <a href="./about_us/about.html" class="dropdown__link">
+                  About Us
+                </a>
+              </li>
+
+              <li>
+                <a href="#" class="dropdown__link">
+                  Achivements
+                </a>
+              </li>
+              <li>
+                <a href="#" class="dropdown__link">
+                  Philosophy
+                </a>
+              </li>
+              <li>
+                <a href="#" class="dropdown__link">
+                  CSR
+                </a>
+              </li>
+              <li>
+                <a href="#" class="dropdown__link">
+                  Work Culture
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li class="dropdown__item">
+            <div class="nav__link">
+              Products <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+            </div>
+
+            <ul class="dropdown__menu">
+              <li>
+                <a href="#" class="dropdown__link">
+                  Diary
+                </a>
+              </li>
+
+              <li>
+                <a href="#" class="dropdown__link">
+                  Ice Cream
+                </a>
+              </li>
+              <li>
+                <a href="#" class="dropdown__link">
+                  Beverages
+                </a>
+              </li>
+              <li>
+                <a href="#" class="dropdown__link">
+                  Sweets
+                </a>
+              </li>
+              <li>
+                <a href="#" class="dropdown__link">
+                  Bhaji
+                </a>
+              </li>
+              <li>
+                <a href="#" class="dropdown__link">
+                  Bakery
+                </a>
+              </li>
+          </li>
+        </ul>
+        </li>
+        <li><a href="#" class="nav__link">Company</a></li>
+
+        <!--=============== DROPDOWN 1 ===============-->
+
+
+        <li><a href="#" class="nav__link">Products</a></li>
+
+        <!--=============== DROPDOWN 2 ===============-->
+
+
+        <li><a href="#" class="nav__link">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
   <div id="locomotive">
     <div class="header">
       <div class="container">
-        <div class="nav-contact">
-          <div class="left-nav-contact">
-            <nav>
-              <ul>
-                <li>
-                  <i class="fa-regular fa-envelope"> </i>
-                  <p>hfsuper24@gmail.com</p>
 
-                </li>
-                <li>
-                  <i class="fa-solid fa-phone"></i>
-                  <p>+88 130 589 745 6987</p>
-                </li>
-                <li>
-                  <i class="fa-regular fa-clock"></i>
-                  <p>Mon - Fri 09:00 - 18:00</p>
-                </li>
-              </ul>
-            </nav>
-          </div>
-          <div class="right-nav-contact">
-            <nav>
-              <ul>
-                <li>
-                  <a href="https://twitter.com/kirankatti420" target="_blank">
-                    <i class="fa-brands fa-twitter"></i>
-                  </a>
-                </li>
-                <li>
-                  <a href="https://instagram.com" target="_blank">
-                    <i class="fa-brands fa-instagram"></i>
-                  </a>
-                </li>
-                <li>
-                  <a href="https://www.behance.net/" target="_blank">
-                    <i class="fa-brands fa-behance"></i>
-                  </a>
-                </li>
-                <li>
-                  <a href="https://www.linkedin.com/feed/" target="_blank">
-                    <i class="fa-brands fa-linkedin-in"></i></a>
-                </li>
-                <li>
-                  <a href="https://portfolio-three-js-kiran-kattis-projects.vercel.app/" target="_blank">
-                    <i class="fa-brands fa-dribbble"></i></a>
-                </li>
-              </ul>
-            </nav>
-          </div>
-        </div>
-        <div class="nav-bar">
+        <!-- <div class="nav-bar">
           <img src="./images/superhflogo.svg" alt="">
           <div class="left-sidebar">
             <nav>
@@ -114,7 +226,7 @@
                 <li><a href="#">HOME</a></li>
                 <li><a href="#" class="">COMPANY PROFILE <i class="fa fa-caret-down"></i></a>
                   <div class="dropdown">
-                    <a href="#">ABOUT US
+                    <a href="./about_us/about.html">ABOUT US
                     </a>
 
                     <a href="#">ACHIVEMENTS</a>
@@ -129,25 +241,22 @@
 
                 <li><a href="#" class="">PRODUCTS <i class="fa fa-caret-down"></i></a>
                   <div class="dropdown">
-                    <a href="#">Dairy
+                    <a href="#">DIARY
                     </a>
 
-                    <a href="#">IceCream</a>
+                    <a href="#">ICE CREAM</a>
 
-                    <a href="#">Beverages</a>
-                    <a href="#">Sweets</a>
-                    <a href="#">Bhaji</a>
-                    <a href="#">Bakery</a>
+                    <a href="#">BEVERAGES</a>
+                    <a href="#">SWEETS</a>
+                    <a href="#">BHAJI</a>
+                    <a href="#">BAKERY</a>
                   </div>
                 </li>
                 <li><a href="#our-products">OUR POLICY</a></li>
                 <li><a href="#insta-blog">OUR STORY</a></li>
                 <li><a href="#insta-blog">NEWS & MEDIA</a></li>
                 <li><a href="#contact">CONTACT US</a></li>
-                <!-- <li class="search-cart">
-                  <i class="fa-solid fa-magnifying-glass"></i>
-                  <i class="fa-solid fa-cart-shopping"></i>
-                </li> -->
+
               </ul>
             </nav>
 
@@ -158,10 +267,6 @@
             <span></span>
           </div>
 
-        </div>
-        <!-- <div class="bg-image">
-          <h1></h1>
-          <h1></h1>
         </div> -->
 
         <div class="all-banners">
@@ -786,7 +891,22 @@
     });
 
   </script>
-  <script></script>
+  <script>
+    const showMenu = (toggleId, navId) => {
+      const toggle2 = document.getElementById(toggleId),
+        nav1 = document.getElementById(navId)
+
+      toggle2.addEventListener("click", () => {
+        // Add show-menu class to nav menu
+        nav1.classList.toggle("show-menu")
+
+        // Add show-icon to show and hide the menu icon
+        toggle2.classList.toggle("show-icon")
+      })
+    }
+
+    showMenu("nav-toggle", "nav-menu")
+  </script>
 
 </body>
 
